@@ -44,7 +44,6 @@ engine:
     - punct_translator
     - "table_translator@custom_phrase"
     - script_translator
-    - "lua_translator@time_translator"
 key_binder:
   bindings:
     - {accept: "Control+p", send: Up, when: composing}
